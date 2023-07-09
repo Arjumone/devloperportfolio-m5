@@ -39,11 +39,15 @@ nav a{
 }
 .header{
     background: rgb(220, 189, 176);
+    background-image: url('../header_bg.png'),url('../developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right ,left;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .btn-contact{
     border-radius: 5px;
@@ -54,10 +58,25 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin-left: 10px;
 }
 .header-img{
     width: 500px;
 }
 .banner-content{
-    
+max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: rgb(73, 70, 70);
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+
 }
